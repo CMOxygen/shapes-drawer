@@ -23,10 +23,10 @@ public:
     ~MainWindow();
 
 protected:
-    void paintEvent(QPaintEvent *event);    //  Содержит код для отрисовки окружности
+    void paintEvent(QPaintEvent *event);    //  Содержит код для отрисовки окружности и кривой линии
 
 private slots:
-    void on_pushButton_clicked();   //  Содержит код для отрисовки кривой линии
+    void on_pushButton_clicked();
 
 private:
     Ui::MainWindow *ui;
